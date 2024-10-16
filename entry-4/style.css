@@ -1,0 +1,86 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.back {
+  color: #8b4513;
+  font-size: larger;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  color: goldenrod;
+}
+
+.container {
+  width: 100%;
+  background-color: #f5f5dc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8rem 1rem;
+  box-sizing: border-box;
+}
+
+.left-section {
+  text-align: center;
+  width: 22%;
+  border-right: 1px dashed #8b4513;
+}
+
+.left-section h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.left-section .image {
+  max-width: 100%;
+  height: auto;
+}
+
+.right-section {
+  width: 75%;
+  padding: 1%;
+}
+.text-wrap{
+display: flex;
+align-items: center;
+}
+.button {
+  width:220px;
+  background-color: #fbff10;
+  border: none;
+  color: rgb(255, 136, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 12px;
+}
+
+.button:hover {
+  background-color: #fff04d;
+}
+
+.text {
+  flex:1;
+  color: goldenrod;
+  font-size: 18px;
+  transition: font-size 0.3s, color 0.3s, font-style 0.3s, letter-spacing 0.3s;
+}
+
+.text:hover {
+  font-size: 20px;
+  color: #8b4513;
+  font-style: italic;
+  letter-spacing: 2px;
+}

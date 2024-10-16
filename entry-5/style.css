@@ -1,0 +1,45 @@
+.text-wrap {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button {
+    width: 220px;
+    background-color: #add8e6;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 12px;
+  }
+  
+  .button:hover {
+    background-color: #ffe91f;
+  }
+  
+  .text {
+    flex: 1;
+    color: goldenrod;
+    font-size: 18px;
+    transition: font-size 0.3s, color 0.3s, font-style 0.3s, letter-spacing 0.3s;
+  }
+  
+  .text:hover {
+    font-size: 20px;
+    color: #8b4513;
+    font-style: italic;
+    letter-spacing: 2px;
+  }
+  
+  .letter .first-letter {
+    font-size: 24px;
+    color: goldenrod;
+  }
+  
+  
