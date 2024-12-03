@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrument Sound Player</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <header>
+        <p><a class="back" href="../index.html">Back To home</a></p>
+
+    </header>
+    <div class="container">
+        <div>
+            <div class="image-container" onclick="playSound('1.mp3')">
+                <img src="1.jpg" alt="Instrument 5" >
+            </div>
+            <div class="image-container" onclick="playSound('2.mp3')">
+                <img src="2.jpg" alt="Instrument 6">
+            </div>
+        </div>
+        <div>
+            <div class="image-container" onclick="playSound('3.mp3')">
+                <img src="3.jpg" alt="Instrument 7">
+            </div>
+            <div class="image-container" onclick="playSound('4.mp3')">
+                <img src="4.jpg" alt="Instrument 8">
+            </div>
+        </div>
+        
+    </div>
+
+
+<audio id="audioPlayer"></audio> 
+
+<script>
+    function playSound(soundFile) {
+        const audioPlayer = document.getElementById('audioPlayer');
+        audioPlayer.src = soundFile;
+        audioPlayer.play();
+    }
+</script>
+
+</body>
+</html>

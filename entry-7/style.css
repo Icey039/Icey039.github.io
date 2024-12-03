@@ -1,0 +1,39 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.back {
+  color: #8b4513;
+  font-size: larger;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  color: goldenrod;
+}
+
+.container {
+  width: 100%;
+  background-color: #D6CFCF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8rem 1rem;
+  box-sizing: border-box;
+}
+
+.left-section {
+  text-align: center;
+  width: 77%;
+  border-right: 1px dashed #8b4513;
+}
+
+.left-section h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
